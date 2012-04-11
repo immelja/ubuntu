@@ -1,0 +1,60 @@
+= Overview
+
+This project contains a set of shell scripts for installing and configuring a fresh Ubuntu operating system.
+It is assumed that base Ubuntu install is a _server_ install and not a _client_ install.
+
+= Features
+
+* A configurable shell script for applying default settings and installing necessary software packages.
+
+= Requirements
+
+* Unbuntu[http://www.ubuntu.com]
+
+= Setup
+
+Open a terminal window and execute one of the following setup sequences depending on your version preference:
+
+Current Version (stable):
+
+  git clone git://github.com/bkuhlmann/ubuntu.git
+  cd ubuntu
+  git checkout v0.1.0
+
+Master Version (unstable):
+
+  git clone git://github.com/bkuhlmann/ubuntu.git
+  cd ubuntu
+
+Edit the setup.sh file and adjust the settings as you see fit, namely the following variables:
+
+* SERVER_HOSTNAME
+* USER_LOGIN
+* USER_PASS
+
+You may want to tweak the *.sh files in the scripts folder as well.
+
+= Usage
+
+Open a terminal window and execute the following command:
+
+  ./setup.sh
+
+Feel free to delete this ubuntu project directory after completing installation. 
+
+= Contributions
+
+Please log all feedback/issues via {GitHub Issues}[https://github.com/bkuhlmann/ubuntu/issues]. Thanks.
+
+= Credits
+
+Developed by {Brooke Kuhlmann}[http://www.redalchemist.com] at {Red Alchemist}[http://www.redalchemist.com]
+
+= License
+
+Copyright (c) 2012 {Red Alchemist}[http://www.redalchemist.com].
+Read the LICENSE for details.
+
+= History
+
+Read the CHANGELOG for details.
