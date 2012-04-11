@@ -1,7 +1,7 @@
 = Overview
 
 This project contains a set of shell scripts for installing and configuring a fresh Ubuntu operating system.
-It is assumed that base Ubuntu install is a _server_ install and not a _client_ install.
+It is assumed that the base Ubuntu install is a _server_ install and not a _client_ install.
 
 = Features
 
@@ -9,7 +9,7 @@ It is assumed that base Ubuntu install is a _server_ install and not a _client_ 
 
 = Requirements
 
-* Unbuntu[http://www.ubuntu.com]
+* Ubuntu[http://www.ubuntu.com]
 
 = Setup
 
