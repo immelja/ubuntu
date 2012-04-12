@@ -13,6 +13,7 @@ $INSTALL_COMMAND install build-essential # Essential for compiling source (inclu
 $INSTALL_COMMAND install libreadline6 libreadline6-dev # CLI.
 $INSTALL_COMMAND install zlib1g zlib1g-dev # Compression.
 $INSTALL_COMMAND install libssl-dev # SSL.
+$INSTALL_COMMAND install libpcre3 libpcre3-dev # Regular Expressions.
 $INSTALL_COMMAND install libyaml-dev # YAML.
 $INSTALL_COMMAND install libxml2-dev # XML.
 $INSTALL_COMMAND install libxslt-dev # XSLT.
