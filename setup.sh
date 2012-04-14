@@ -24,6 +24,10 @@ export INSTALL_COMMAND="apt-get -q -y"
 #############
 
 echo "Configuring server..."
+if [[ $EUID -ne 0 ]]; then
+	echo "This script must be run as root" 1>&2
+	exit 1
+fi
 
 echo "Configuring defaults..."
 scripts/defaults.sh
