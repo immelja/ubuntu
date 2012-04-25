@@ -1,9 +1,12 @@
-#!/bin/bash
+#!/bin/sh
 
-#############
-# Execution #
-#############
+# DESCRIPTION
+# Configures default user(s).
 
+# REQUIREMENTS
+# ../setup.sh
+
+# EXECUTION
 # Create user account.
 useradd -m -s /bin/bash -G admin $USER_LOGIN
 usermod -p $(echo $USER_PASS | openssl passwd -1 -stdin) $USER_LOGIN

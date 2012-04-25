@@ -31,6 +31,7 @@ Master Version (unstable):
 
 Edit the setup.sh file and adjust the settings as you see fit, namely the following variables:
 
+* SERVER_IP
 * SERVER_HOSTNAME
 * USER_LOGIN
 * USER_PASS
@@ -39,11 +40,15 @@ You may want to tweak the *.sh files in the scripts folder as well.
 
 = Usage
 
-Open a terminal window and execute the following command:
-
-  ./setup.sh
-
-Feel free to delete this ubuntu project directory after completing installation. 
+1. ssh to your server or VM.
+2. Switch to the root user.
+3. Create the a /root/.ssh/authorized_keys file with your public key.
+4. chmod -R 600 /root/.ssh.
+5. mkdir /root/ubuntu.
+5. scp the files of this project to the /root/ubuntu folder. Example: scp -r * root@10.0.1.50:/root/ubuntu.
+6. Run the /root/ubuntu/setup.sh script in the root of this project.
+7. Delete the /root/ubuntu folder.
+8. Delete the /root/.ssh folder.
 
 = Contributions
 

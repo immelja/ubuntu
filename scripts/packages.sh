@@ -1,9 +1,12 @@
-#!/bin/bash
+#!/bin/sh
 
-#############
-# Execution #
-#############
+# DESCRIPTION
+# Installs default packages.
 
+# REQUIREMENTS
+# ../setup.sh
+
+# EXECUTION
 # Initialization
 $INSTALL_COMMAND update
 $INSTALL_COMMAND upgrade
