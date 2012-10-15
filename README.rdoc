@@ -52,7 +52,7 @@ You may want to tweak the *.sh files in the scripts folder as well.
 
 = Contributions
 
-Please log all feedback/issues via {GitHub Issues}[https://github.com/bkuhlmann/ubuntu/issues]. Thanks.
+Read CONTRIBUTING for details.
 
 = Credits
 
