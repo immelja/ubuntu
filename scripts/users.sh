@@ -3,9 +3,6 @@
 # DESCRIPTION
 # Configures default user(s).
 
-# REQUIREMENTS
-# ../setup.sh
-
 # EXECUTION
 # Create user account.
 useradd -m -s /bin/bash -G admin $USER_LOGIN

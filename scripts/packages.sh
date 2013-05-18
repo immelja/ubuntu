@@ -3,9 +3,6 @@
 # DESCRIPTION
 # Installs default packages.
 
-# REQUIREMENTS
-# ../setup.sh
-
 # EXECUTION
 # Initialization
 $INSTALL_COMMAND update

@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # DESCRIPTION
-# One script to rule them all - Executes all setup scripts.
+# Executes the command line interface.
 
 # USAGE
-# ./setup.sh
+# ./run.sh
 
 # SETTINGS
 set -u # Exit if any variables are uninitialised.

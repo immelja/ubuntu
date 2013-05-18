@@ -3,9 +3,6 @@
 # DESCRIPTION
 # Configures server defaults.
 
-# REQUIREMENTS
-# ../setup.sh
-
 # EXECUTION
 echo "Setting hostname..."
 echo $SERVER_HOSTNAME > /etc/hostname
