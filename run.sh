@@ -4,27 +4,32 @@
 # Executes the command line interface.
 
 # USAGE
-# ./run.sh
+# ./run.sh OPTION
 
 # SETTINGS
-settings/settings.sh
+source settings/settings.sh
+
+# FUNCTIONS
+source functions/options.sh
 
 # EXECUTION
-echo "Setup starting..."
-
-echo "Configuring defaults..."
-scripts/defaults.sh
-
-echo "Installing system packages..."
-scripts/packages.sh
-
-echo "Configuring users..."
-scripts/users.sh
-
-echo "Finalizing setup..."
-scripts/finale.sh
-
-echo "Rebooting the server..."
-shutdown -r now
-
-echo "Setup complete!"
+if [ -z "$1" ]; then
+  echo ''
+  while true; do
+    echo "Usage: run OPTION"
+    echo "\nUbuntu Options:"
+    echo "  d: Configure default settings."
+    echo "  p: Install system packages."
+    echo "  u: Configure users."
+    echo "  f: Finalize setup."
+    echo "  r: Reboot server."
+    echo "  i: Perform complete install (i.e. configure default settings, install packages, configure users, finalize, and reboot."
+    echo "  q: Quit/Exit."
+    echo ''
+    read -p "Enter selection: " response
+    process_option $response
+  done
+else
+  process_option $1
+fi
+echo ''
