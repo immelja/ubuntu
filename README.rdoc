@@ -50,6 +50,13 @@ You may want to tweak the *.sh files in the scripts folder as well.
 7. Delete the /root/ubuntu folder.
 8. Delete the /root/.ssh folder.
 
+= Versioning
+
+Read {Semantic Versioning}[http://semver.org] for details. Briefly, it means:
+* Patch (x.y.Z) - Incremented for small, backwards compatible bug fixes.
+* Minor (x.Y.z) - Incremented for new, backwards compatible public API enhancements and/or bug fixes.
+* Major (X.y.z) - Incremented for any backwards incompatible public API changes.
+
 = Contributions
 
 Read CONTRIBUTING for details.
