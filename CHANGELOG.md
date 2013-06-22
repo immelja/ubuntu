@@ -1,4 +1,4 @@
-= v0.2.0
+# v0.2.0
 
 * Added server ip config and regular expression package install.
 * Added mention of Rails Setup Template project to README.
@@ -10,6 +10,6 @@
 * Converted/detailed the CONTRIBUTING guidelines per GitHub requirements.
 * Added Code Climate support.
 
-= v0.1.0
+# v0.1.0
 
 * Initial version.
