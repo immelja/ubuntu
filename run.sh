@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # DESCRIPTION
 # Executes the command line interface.
@@ -13,23 +13,21 @@ source settings/settings.sh
 source functions/options.sh
 
 # EXECUTION
-if [ -z "$1" ]; then
-  echo ''
-  while true; do
-    echo "Usage: run OPTION"
-    echo "\nUbuntu Options:"
-    echo "  d: Configure default settings."
-    echo "  p: Install system packages."
-    echo "  u: Configure users."
-    echo "  f: Finalize setup."
-    echo "  r: Reboot server."
-    echo "  i: Perform complete install (i.e. configure default settings, install packages, configure users, finalize, and reboot."
-    echo "  q: Quit/Exit."
-    echo ''
+while true; do
+  if [[ $# == 0 ]]; then
+    printf "\nUsage: run OPTION\n"
+    printf "\nUbuntu Options:\n"
+    printf "  d: Configure default settings.\n"
+    printf "  p: Install system packages.\n"
+    printf "  u: Configure users.\n"
+    printf "  f: Finalize setup.\n"
+    printf "  r: Reboot server.\n"
+    printf "  i: Perform complete install (i.e. configure default settings, install packages, configure users, finalize, and reboot.\n"
+    printf "  q: Quit/Exit.\n\n"
     read -p "Enter selection: " response
+    printf "\n"
     process_option $response
-  done
-else
-  process_option $1
-fi
-echo ''
+  else
+    process_option $1
+  fi
+done

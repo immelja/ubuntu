@@ -1,12 +1,13 @@
-#!/bin/sh
+#!/bin/bash
 
 # DESCRIPTION
 # Defines global settings.
 
 # SETTINGS
 # General
-set -u # Exit if any variables are uninitialised.
-set -e # Exit if any command returns non-zero.
+set -o nounset
+set -o errexit
+set -o pipefail
 
 # Globals
 export SERVER_IP=127.0.1.1 # Placeholder for server IP.
