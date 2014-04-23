@@ -4,7 +4,7 @@
 # Configures final server settings (or those which must be set last).
 
 # EXECUTION
-echo "Setting the message of the day..."
-echo "Welcome to the $SERVER_HOSTNAME server." > /etc/motd.tail
-echo '' > /etc/update-motd.d/00-header
-echo '' > /etc/update-motd.d/10-help-text
+printf "Setting the message of the day...\n"
+printf "Welcome to the $SERVER_HOSTNAME server.\n" > /etc/motd.tail
+printf '' > /etc/update-motd.d/00-header
+printf '' > /etc/update-motd.d/10-help-text

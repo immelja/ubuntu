@@ -4,13 +4,13 @@
 # Configures server defaults.
 
 # EXECUTION
-echo "Setting hostname..."
-echo $SERVER_HOSTNAME > /etc/hostname
+printf "Setting hostname...\n"
+printf "$SERVER_HOSTNAME\n" > /etc/hostname
 hostname -F /etc/hostname
 
-echo "Updating hosts..."
-echo "$SERVER_IP $SERVER_HOSTNAME $SERVER_HOSTNAME" >> /etc/hosts
+printf "Updating hosts...\n"
+printf "$SERVER_IP $SERVER_HOSTNAME $SERVER_HOSTNAME\n" >> /etc/hosts
 hostname -f
 
-echo "Setting UTC timezone..."
+printf "Setting UTC timezone...\n"
 ln -sf /usr/share/zoneinfo/UTC /etc/localtime
