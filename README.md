@@ -22,7 +22,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/ubuntu.git
     cd ubuntu
-    git checkout v0.2.0
+    git checkout v0.3.0
 
 Master Version (unstable):
 

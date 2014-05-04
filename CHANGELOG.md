@@ -1,3 +1,15 @@
+# v0.3.0
+
+* Removed the Code Climate badge (not relevant to this probject).
+* Renamed setup.sh to run.sh.
+* Moved settings to settings.sh from run.sh.
+* Added command line options prompt (including bypass option support).
+* Added a [Versioning](http://semver.org) section to the README.
+* Converted from RDoc to Markdown documentation.
+* Enhanced all function signatures with missing ().
+* Refactored scripts to enable better error checking.
+* Refactored scripts to use printf instead of echo.
+
 # v0.2.0
 
 * Added server ip config and regular expression package install.
