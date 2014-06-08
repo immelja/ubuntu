@@ -1,5 +1,7 @@
 # Overview
 
+[![Gittip](http://img.shields.io/gittip/bkuhlmann.svg)](https://www.gittip.com/bkuhlmann)
+
 This project contains a set of shell scripts for installing and configuring a fresh Ubuntu operating system.
 It is assumed that the base Ubuntu install is a _server_ install and not a _client_ install.
 
