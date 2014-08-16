@@ -1,4 +1,4 @@
-# v0.3.0
+# v0.3.0 (2014-05-04)
 
 * Removed the Code Climate badge (not relevant to this probject).
 * Renamed setup.sh to run.sh.
@@ -10,7 +10,7 @@
 * Refactored scripts to enable better error checking.
 * Refactored scripts to use printf instead of echo.
 
-# v0.2.0
+# v0.2.0 (2013-03-17)
 
 * Added server ip config and regular expression package install.
 * Added mention of Rails Setup Template project to README.
@@ -22,6 +22,6 @@
 * Converted/detailed the CONTRIBUTING guidelines per GitHub requirements.
 * Added Code Climate support.
 
-# v0.1.0
+# v0.1.0 (2012-04-10)
 
 * Initial version.
