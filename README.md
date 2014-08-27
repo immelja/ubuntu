@@ -10,7 +10,7 @@ should you wish to have a bootstrapped Rails app running on a fresh Ubuntu insta
 
 # Features
 
-* A configurable shell script for applying default settings and installing necessary software packages.
+- A configurable shell script for applying default settings and installing necessary software packages.
 
 # Requirements
 
@@ -33,10 +33,10 @@ Master Version (unstable):
 
 Edit the setup.sh file and adjust the settings as you see fit, namely the following variables:
 
-* SERVER_IP
-* SERVER_HOSTNAME
-* USER_LOGIN
-* USER_PASS
+- SERVER_IP
+- SERVER_HOSTNAME
+- USER_LOGIN
+- USER_PASS
 
 You may want to tweak the *.sh files in the scripts folder as well.
 
@@ -47,7 +47,7 @@ You may want to tweak the *.sh files in the scripts folder as well.
 0. Create the a /root/.ssh/authorized_keys file with your public key.
 0. chmod -R 600 /root/.ssh.
 0. mkdir /root/ubuntu.
-0. scp the files of this project to the /root/ubuntu folder. Example: scp -r * root@10.0.1.50:/root/ubuntu.
+0. scp the files of this project to the /root/ubuntu folder. Example: scp -r - root@10.0.1.50:/root/ubuntu.
 0. Run the /root/ubuntu/setup.sh script in the root of this project.
 0. Delete the /root/ubuntu folder.
 0. Delete the /root/.ssh folder.
@@ -56,9 +56,9 @@ You may want to tweak the *.sh files in the scripts folder as well.
 
 Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
 
-* Patch (x.y.Z) - Incremented for small, backwards compatible bug fixes.
-* Minor (x.Y.z) - Incremented for new, backwards compatible public API enhancements and/or bug fixes.
-* Major (X.y.z) - Incremented for any backwards incompatible public API changes.
+- Patch (x.y.Z) - Incremented for small, backwards compatible bug fixes.
+- Minor (x.Y.z) - Incremented for new, backwards compatible public API enhancements and/or bug fixes.
+- Major (X.y.z) - Incremented for any backwards incompatible public API changes.
 
 # Contributions
 
