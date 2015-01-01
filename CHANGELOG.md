@@ -1,3 +1,7 @@
+# v0.3.1 (2015-01-01)
+
+- Added Bash strict mode.
+
 # v0.3.0 (2014-05-04)
 
 - Removed the Code Climate badge (not relevant to this probject).
