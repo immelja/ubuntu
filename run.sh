@@ -10,7 +10,7 @@
 source settings/settings.sh
 
 # FUNCTIONS
-source functions/options.sh
+source lib/options.sh
 
 # EXECUTION
 while true; do
