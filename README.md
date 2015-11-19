@@ -8,8 +8,8 @@ It is assumed that the base Ubuntu install is a _server_ install and not a _clie
 This project can serve as a prelude to the [Rails Setup Project](https://github.com/bkuhlmann/rails_setup_template)
 should you wish to have a bootstrapped Rails app running on a fresh Ubuntu install with a full server stack.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
 # Table of Contents
 
 - [Features](#features)
@@ -23,7 +23,7 @@ should you wish to have a bootstrapped Rails app running on a fresh Ubuntu insta
 - [History](#history)
 - [Credits](#credits)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
 
 # Features
 
