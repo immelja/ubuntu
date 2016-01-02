@@ -1,3 +1,15 @@
+# v1.0.0 (2016-01-02)
+
+- Fixed hanging script with invalid option.
+- Added Bashsmith generation to README history.
+- Added Patreon badge to README.
+- Added code of conduct documentation.
+- Added project name to README.
+- Added table of contents to README.
+- Removed GitTip badge from README.
+- Refactored script source from functions to lib folder.
+- Refactored shell scripts to remove deprecated function definition.
+
 # v0.3.1 (2015-01-01)
 
 - Added Bash strict mode.

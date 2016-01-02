@@ -41,7 +41,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/ubuntu.git
     cd ubuntu
-    git checkout v0.3.1
+    git checkout v1.0.0
 
 Master Version (unstable):
 
@@ -98,4 +98,4 @@ Built with [Bashsmith](https://github.com/bkuhlmann/bashsmith).
 
 # Credits
 
-Developed by [Brooke Kuhlmann](https://www.alchemists.io) at [Alchemists](https://www.alchemists.io)
+Developed by [Brooke Kuhlmann](https://www.alchemists.io) at [Alchemists](https://www.alchemists.io).
