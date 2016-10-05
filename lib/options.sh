@@ -9,32 +9,24 @@
 process_option() {
   case $1 in
     'd')
-      scripts/defaults.sh
-      break;;
+      scripts/defaults.sh;;
     'p')
-      scripts/packages.sh
-      break;;
+      scripts/packages.sh;;
     'u')
-      scripts/users.sh
-      break;;
+      scripts/users.sh;;
     'f')
-      scripts/finale.sh
-      break;;
+      scripts/finale.sh;;
     'r')
-      shutdown -r now
-      break;;
+      shutdown -r now;;
     'i')
       scripts/defaults.sh
       scripts/packages.sh
       scripts/users.sh
       scripts/finale.sh
-      shutdown -r now
-      break;;
-    'q')
-      break;;
+      shutdown -r now;;
+    'q');;
     *)
-      printf "ERROR: Invalid option.\n"
-      break;;
+      printf "ERROR: Invalid option.\n";;
   esac
 }
 export -f process_option

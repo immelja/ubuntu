@@ -30,4 +30,6 @@ while true; do
   else
     process_option $1
   fi
+
+  break
 done
