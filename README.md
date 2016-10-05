@@ -39,13 +39,13 @@ Open a terminal window and execute one of the following setup sequences dependin
 
 Current Version (stable):
 
-    git clone git://github.com/bkuhlmann/ubuntu.git
+    git clone https://github.com/bkuhlmann/ubuntu.git
     cd ubuntu
     git checkout v1.0.0
 
 Master Version (unstable):
 
-    git clone git://github.com/bkuhlmann/ubuntu.git
+    git clone https://github.com/bkuhlmann/ubuntu.git
     cd ubuntu
 
 Edit the setup.sh file and adjust the settings as you see fit, namely the following variables:
