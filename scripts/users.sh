@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /usr/bin/env bash
 
 # DESCRIPTION
 # Configures default user(s).
