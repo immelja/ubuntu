@@ -1,3 +1,14 @@
+# v2.0.0 (2016-10-11)
+
+- Fixed Bash script header to dynamically load correct environment.
+- Fixed contributing guideline links.
+- Added GitHub issue and pull request templates.
+- Updated README cloning instructions to use HTTPS scheme.
+- Updated to Code of Conduct, Version 1.4.0.
+- Removed `run.sh` (use `bin/run` instead).
+- Removed `scripts` folder (use `bin` instead).
+- Refactored run scripts to use break statements.
+
 # v1.0.0 (2016-01-02)
 
 - Fixed hanging script with invalid option.
