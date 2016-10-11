@@ -9,20 +9,20 @@
 process_option() {
   case $1 in
     'd')
-      scripts/defaults.sh;;
+      bin/apply_defaults;;
     'p')
-      scripts/packages.sh;;
+      bin/install_packages;;
     'u')
-      scripts/users.sh;;
+      bin/configure_users;;
     'f')
-      scripts/finale.sh;;
+      bin/finalize_setup;;
     'r')
       shutdown -r now;;
     'i')
-      scripts/defaults.sh
-      scripts/packages.sh
-      scripts/users.sh
-      scripts/finale.sh
+      bin/apply_defaults
+      bin/install_packages
+      bin/configure_users
+      bin/finalize_setup
       shutdown -r now;;
     'q');;
     *)
