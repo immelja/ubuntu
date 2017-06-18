@@ -26,16 +26,16 @@ server stack.
 
 <!-- Tocer[finish]: Auto-generated, don't remove. -->
 
-# Features
+## Features
 
 - A configurable shell script for applying default settings and installing necessary software
   packages.
 
-# Requirements
+## Requirements
 
 0. [Ubuntu](http://www.ubuntu.com)
 
-# Setup
+## Setup
 
 Open a terminal window and execute one of the following setup sequences depending on your version
 preference:
@@ -60,7 +60,7 @@ Edit the setup.sh file and adjust the settings as you see fit, namely the follow
 
 You may want to tweak the `*.sh` files in the scripts folder as well.
 
-# Usage
+## Usage
 
 0. `ssh` to your server or VM.
 0. Switch to the root user.
@@ -73,7 +73,7 @@ You may want to tweak the `*.sh` files in the scripts folder as well.
 0. Delete the `/root/ubuntu` folder.
 0. Delete the `/root/.ssh` folder.
 
-# Versioning
+## Versioning
 
 Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
 
@@ -81,26 +81,26 @@ Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
 - Minor (x.Y.z) - Incremented for new, backwards compatible, public API enhancements/fixes.
 - Patch (x.y.Z) - Incremented for small, backwards compatible, bug fixes.
 
-# Code of Conduct
+## Code of Conduct
 
 Please note that this project is released with a [CODE OF CONDUCT](CODE_OF_CONDUCT.md). By
 participating in this project you agree to abide by its terms.
 
-# Contributions
+## Contributions
 
 Read [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-# License
+## License
 
 Copyright (c) 2012 [Alchemists](https://www.alchemists.io).
 Read [LICENSE](LICENSE.md) for details.
 
-# History
+## History
 
 Read [CHANGES](CHANGES.md) for details.
 Built with [Bashsmith](https://github.com/bkuhlmann/bashsmith).
 
-# Credits
+## Credits
 
 Developed by [Brooke Kuhlmann](https://www.alchemists.io) at
 [Alchemists](https://www.alchemists.io).
