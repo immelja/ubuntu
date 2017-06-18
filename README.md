@@ -1,5 +1,6 @@
 # Ubuntu
 
+[![Circle CI Status](https://circleci.com/gh/bkuhlmann/ubuntu.svg?style=svg)](https://circleci.com/gh/bkuhlmann/ubuntu)
 [![Patreon](https://img.shields.io/badge/patreon-donate-brightgreen.svg)](https://www.patreon.com/bkuhlmann)
 
 This project contains a set of shell scripts for installing and configuring a fresh Ubuntu operating
