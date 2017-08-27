@@ -1,3 +1,18 @@
+# v2.1.0 (2017-08-27)
+
+- Added Git Cop support.
+- Updated CONTRIBUTING documentation.
+- Updated GitHub templates.
+- Updated README headers.
+- Updated README semantic versioning order.
+- Updated README versioning documentation.
+- Updated contributing documentation.
+- Updated gem dependencies.
+- Updated to Git Cop 1.3.0.
+- Updated to Git Cop 1.5.0.
+- Updated to Git Cop 1.6.0.
+- Removed CHANGELOG.md (use CHANGES.md instead).
+
 # v2.0.0 (2016-10-11)
 
 - Fixed Bash script header to dynamically load correct environment.
