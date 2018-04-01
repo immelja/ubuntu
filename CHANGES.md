@@ -1,4 +1,4 @@
-# v3.1.0 (2018-04-01)
+# 3.1.0 (2018-04-01)
 
 - Updated README license information.
 - Updated to Circle CI 2.0.0 configuration.
@@ -6,7 +6,7 @@
 - Updated to Ruby 2.5.1.
 - Removed Patreon badge from README.
 
-# v3.0.0 (2018-01-01)
+# 3.0.0 (2018-01-01)
 
 - Added Gemfile.lock to .gitignore.
 - Updated Gemfile.lock file.
@@ -19,7 +19,7 @@
 - Updated to Ruby 2.4.3.
 - Updated to Ruby 2.5.0.
 
-# v2.1.0 (2017-08-27)
+# 2.1.0 (2017-08-27)
 
 - Added Git Cop support.
 - Updated CONTRIBUTING documentation.
@@ -34,7 +34,7 @@
 - Updated to Git Cop 1.6.0.
 - Removed CHANGELOG.md (use CHANGES.md instead).
 
-# v2.0.0 (2016-10-11)
+# 2.0.0 (2016-10-11)
 
 - Fixed Bash script header to dynamically load correct environment.
 - Fixed contributing guideline links.
@@ -45,7 +45,7 @@
 - Removed `scripts` folder (use `bin` instead).
 - Refactored run scripts to use break statements.
 
-# v1.0.0 (2016-01-02)
+# 1.0.0 (2016-01-02)
 
 - Fixed hanging script with invalid option.
 - Added Bashsmith generation to README history.
@@ -57,11 +57,11 @@
 - Refactored script source from functions to lib folder.
 - Refactored shell scripts to remove deprecated function definition.
 
-# v0.3.1 (2015-01-01)
+# 0.3.1 (2015-01-01)
 
 - Added Bash strict mode.
 
-# v0.3.0 (2014-05-04)
+# 0.3.0 (2014-05-04)
 
 - Removed the Code Climate badge (not relevant to this probject).
 - Renamed setup.sh to run.sh.
@@ -73,7 +73,7 @@
 - Refactored scripts to enable better error checking.
 - Refactored scripts to use printf instead of echo.
 
-# v0.2.0 (2013-03-17)
+# 0.2.0 (2013-03-17)
 
 - Added server ip config and regular expression package install.
 - Added mention of Rails Setup Template project to README.
@@ -85,6 +85,6 @@
 - Converted/detailed the CONTRIBUTING guidelines per GitHub requirements.
 - Added Code Climate support.
 
-# v0.1.0 (2012-04-10)
+# 0.1.0 (2012-04-10)
 
 - Initial version.
