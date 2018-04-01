@@ -44,7 +44,7 @@ Current Version (stable):
 
     git clone https://github.com/bkuhlmann/ubuntu.git
     cd ubuntu
-    git checkout v3.0.0
+    git checkout 3.1.0
 
 Master Version (unstable):
 
