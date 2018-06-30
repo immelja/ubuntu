@@ -67,7 +67,7 @@
 - Renamed setup.sh to run.sh.
 - Moved settings to settings.sh from run.sh.
 - Added command line options prompt (including bypass option support).
-- Added a [Versioning](http://semver.org) section to the README.
+- Added a [Versioning](https://semver.org) section to the README.
 - Converted from RDoc to Markdown documentation.
 - Enhanced all function signatures with missing ().
 - Refactored scripts to enable better error checking.
