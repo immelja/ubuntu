@@ -33,7 +33,7 @@ server stack.
 
 ## Requirements
 
-0. [Ubuntu](http://www.ubuntu.com)
+1. [Ubuntu](http://www.ubuntu.com)
 
 ## Setup
 
@@ -62,16 +62,16 @@ You may want to tweak the `*.sh` files in the scripts folder as well.
 
 ## Usage
 
-0. `ssh` to your server or VM.
-0. Switch to the root user.
-0. Create the a /root/.ssh/authorized_keys file with your public key.
-0. `chmod -R 600 /root/.ssh`.
-0. `mkdir /root/ubuntu`.
-0. Copy the files of this project to the /root/ubuntu folder. Example:
+1. `ssh` to your server or VM.
+1. Switch to the root user.
+1. Create the a /root/.ssh/authorized_keys file with your public key.
+1. `chmod -R 600 /root/.ssh`.
+1. `mkdir /root/ubuntu`.
+1. Copy the files of this project to the /root/ubuntu folder. Example:
    `scp -r - root@10.0.1.50:/root/ubuntu`.
-0. Run the `/root/ubuntu/bin/run` script in the root of this project.
-0. Delete the `/root/ubuntu` folder.
-0. Delete the `/root/.ssh` folder.
+1. Run the `/root/ubuntu/bin/run` script in the root of this project.
+1. Delete the `/root/ubuntu` folder.
+1. Delete the `/root/.ssh` folder.
 
 ## Versioning
 
