@@ -13,6 +13,6 @@ IFS=$'\n\t' # Defines how Bash splits words and iterates arrays. This defines ne
 # Globals
 export SERVER_IP=127.0.1.1 # Placeholder for server IP.
 export SERVER_HOSTNAME=home.example.com # Placeholder for server domain.
-export USER_LOGIN=app # The master user for automated tasks, deployments, app management, etc.
-export USER_PASS=password # The master user password.
+export USER_LOGIN=jaap # The master user for automated tasks, deployments, app management, etc.
+export USER_PASS=kandelaar # The master user password.
 export INSTALL_COMMAND="apt-get -q -y"
