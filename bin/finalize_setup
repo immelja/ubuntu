@@ -13,6 +13,7 @@ printf '' > /etc/update-motd.d/10-help-text
 
 
 # FINALLY
+ln -sf /usr/bin/python3 /usr/bin/python
 sudo pip3 install flask
 sudo a2enmod wsgi
 
