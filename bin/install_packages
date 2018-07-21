@@ -8,6 +8,8 @@ $INSTALL_COMMAND install curl
 $INSTALL_COMMAND install zsh
 $INSTALL_COMMAND install python-dev
 $INSTALL_COMMAND install libapache2-mod-wsgi
+$INSTALL_COMMAND install python3-pip
+
 
 
 

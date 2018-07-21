@@ -10,3 +10,9 @@ printf "Setting the message of the day...\n"
 printf "Welcome to the $SERVER_HOSTNAME server.\n" > /etc/motd.tail
 printf '' > /etc/update-motd.d/00-header
 printf '' > /etc/update-motd.d/10-help-text
+
+
+# FINALLY
+sudo pip3 install flask
+sudo a2enmod wsgi
+
